@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "freshlime_deploy.gemspec",
     "lib/freshlime_deploy.rb",
     "lib/freshlime_deploy/recipe.rb",
     "test/helper.rb",
