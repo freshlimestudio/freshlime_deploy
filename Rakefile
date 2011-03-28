@@ -13,7 +13,7 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "freshlime_deploy"
-  gem.homepage = "http://github.com/voronov/freshlime-deploy"
+  gem.homepage = "http://github.com/voronov/freshlime_deploy"
   gem.license = "MIT"
   gem.summary = %Q{specific recipe for freshlimestudio rails deployment}
   gem.description = %Q{specific recipe for freshlimestudio deployment}
