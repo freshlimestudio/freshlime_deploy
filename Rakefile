@@ -21,7 +21,7 @@ Jeweler::Tasks.new do |gem|
   gem.authors = ["Andrey Voronov"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
-  gem.add_runtime_dependency 'capistrano', '>= 2.5.19'
+  gem.add_runtime_dependency 'capistrano', '>= 2.5.20'
   gem.add_runtime_dependency 'capistrano-ext', '>= 1.2.1'
   #gem.add_development_dependency 'rspec', '> 1.2.3'
 end
