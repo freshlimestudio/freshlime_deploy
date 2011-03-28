@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{freshlime_deploy}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Andrey Voronov"]
-  s.date = %q{2011-03-21}
+  s.date = %q{2011-03-28}
   s.description = %q{specific recipe for freshlimestudio deployment}
   s.email = %q{andreyv@freshlimestudio.com}
   s.extra_rdoc_files = [
@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
     "test/helper.rb",
     "test/test_freshlime_deploy.rb"
   ]
-  s.homepage = %q{http://github.com/voronov/freshlime-deploy}
+  s.homepage = %q{http://github.com/voronov/freshlime_deploy}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.6.2}
@@ -50,7 +50,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.5.2"])
       s.add_development_dependency(%q<rcov>, [">= 0"])
-      s.add_runtime_dependency(%q<capistrano>, [">= 2.5.19"])
+      s.add_runtime_dependency(%q<capistrano>, [">= 2.5.20"])
       s.add_runtime_dependency(%q<capistrano-ext>, [">= 1.2.1"])
     else
       s.add_dependency(%q<capistrano>, [">= 2.5.19"])
@@ -59,7 +59,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
       s.add_dependency(%q<rcov>, [">= 0"])
-      s.add_dependency(%q<capistrano>, [">= 2.5.19"])
+      s.add_dependency(%q<capistrano>, [">= 2.5.20"])
       s.add_dependency(%q<capistrano-ext>, [">= 1.2.1"])
     end
   else
@@ -69,7 +69,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<bundler>, ["~> 1.0.0"])
     s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
     s.add_dependency(%q<rcov>, [">= 0"])
-    s.add_dependency(%q<capistrano>, [">= 2.5.19"])
+    s.add_dependency(%q<capistrano>, [">= 2.5.20"])
     s.add_dependency(%q<capistrano-ext>, [">= 1.2.1"])
   end
 end
